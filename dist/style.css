@@ -610,13 +610,19 @@ video {
   z-index: 30;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+}
+
+.mx-\[15pc\] {
+  margin-left: 15pc;
+  margin-right: 15pc;
+}
+
+.mx-\[35pc\] {
+  margin-left: 35pc;
+  margin-right: 35pc;
 }
 
 .mx-\[5pc\] {
@@ -637,71 +643,6 @@ video {
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-}
-
-.mx-\[10pc\] {
-  margin-left: 10pc;
-  margin-right: 10pc;
-}
-
-.mx-\[30pc\] {
-  margin-left: 30pc;
-  margin-right: 30pc;
-}
-
-.mx-\[50pc\] {
-  margin-left: 50pc;
-  margin-right: 50pc;
-}
-
-.mx-\[40pc\] {
-  margin-left: 40pc;
-  margin-right: 40pc;
-}
-
-.mx-\[35pc\] {
-  margin-left: 35pc;
-  margin-right: 35pc;
-}
-
-.mx-\[1pc\] {
-  margin-left: 1pc;
-  margin-right: 1pc;
-}
-
-.mx-\[pc\] {
-  margin-left: pc;
-  margin-right: pc;
-}
-
-.mx-\[25pc\] {
-  margin-left: 25pc;
-  margin-right: 25pc;
-}
-
-.mx-\[15pc\] {
-  margin-left: 15pc;
-  margin-right: 15pc;
-}
-
-.mx-\[16pc\] {
-  margin-left: 16pc;
-  margin-right: 16pc;
-}
-
-.mx-\[17pc\] {
-  margin-left: 17pc;
-  margin-right: 17pc;
-}
-
-.mx-\[13pc\] {
-  margin-left: 13pc;
-  margin-right: 13pc;
-}
-
-.mx-\[14pc\] {
-  margin-left: 14pc;
-  margin-right: 14pc;
 }
 
 .mb-10 {
@@ -736,16 +677,16 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-\[10pc\] {
   margin-top: 10pc;
 }
 
 .mt-\[8pc\] {
   margin-top: 8pc;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .block {
@@ -764,10 +705,6 @@ video {
   display: none;
 }
 
-.h-9 {
-  height: 2.25rem;
-}
-
 .h-10 {
   height: 2.5rem;
 }
@@ -784,12 +721,12 @@ video {
   height: 14rem;
 }
 
-.h-full {
-  height: 100%;
+.h-9 {
+  height: 2.25rem;
 }
 
-.w-9 {
-  width: 2.25rem;
+.h-full {
+  height: 100%;
 }
 
 .w-10 {
@@ -802,6 +739,10 @@ video {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 .w-full {
@@ -943,17 +884,14 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-5 {
@@ -964,6 +902,16 @@ video {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.px-\[15pc\] {
+  padding-left: 15pc;
+  padding-right: 15pc;
+}
+
+.px-\[23pc\] {
+  padding-left: 23pc;
+  padding-right: 23pc;
 }
 
 .px-\[27pc\] {
@@ -1001,67 +949,16 @@ video {
   padding-bottom: 5pc;
 }
 
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[15pc\] {
-  padding-left: 15pc;
-  padding-right: 15pc;
-}
-
-.px-\[40pc\] {
-  padding-left: 40pc;
-  padding-right: 40pc;
-}
-
-.px-\[30pc\] {
-  padding-left: 30pc;
-  padding-right: 30pc;
-}
-
-.px-\[20pc\] {
-  padding-left: 20pc;
-  padding-right: 20pc;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
-.py-\[10pc\] {
-  padding-top: 10pc;
-  padding-bottom: 10pc;
-}
-
-.px-\[10pc\] {
-  padding-left: 10pc;
-  padding-right: 10pc;
-}
-
-.px-\[25pc\] {
-  padding-left: 25pc;
-  padding-right: 25pc;
-}
-
-.px-\[23pc\] {
-  padding-left: 23pc;
-  padding-right: 23pc;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pl-10 {
@@ -1092,6 +989,10 @@ video {
   padding-right: 1.25rem;
 }
 
+.pr-\[35pc\] {
+  padding-right: 35pc;
+}
+
 .pr-\[5pc\] {
   padding-right: 5pc;
 }
@@ -1110,30 +1011,6 @@ video {
 
 .pt-\[5pc\] {
   padding-top: 5pc;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pl-\[20pc\] {
-  padding-left: 20pc;
-}
-
-.pr-\[20pc\] {
-  padding-right: 20pc;
-}
-
-.pr-\[30pc\] {
-  padding-right: 30pc;
-}
-
-.pr-\[40pc\] {
-  padding-right: 40pc;
-}
-
-.pr-\[35pc\] {
-  padding-right: 35pc;
 }
 
 .text-center {
@@ -1195,14 +1072,14 @@ video {
   color: rgb(181 83 248 / var(--tw-text-opacity, 1));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .duration-700 {
